@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaLinkedinIn, FaFacebookF, FaTwitter, FaInstagramSquare} from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="courses.html">Team</a></li>
                     <li><a href="contact.html">Contacts</a></li>
                 </ul>
              </div>
@@ -30,20 +31,20 @@ const Footer = () => {
                 <h4>Contact</h4>
                 <div>
                     <p>+2349084525638</p>
-                    <p>multiling@gmail.com</p>
+                    <p>pronera@gmail.com</p>
                 </div>
                 <div>
                     <ul class="footer__socials">
-                        <li><a href="a">fb</a></li>
-                        <li><a href="a">in</a></li>
-                        <li><a href="a">tw</a></li>
-                        <li><a href="a">ln</a></li>
+                        <li><a href="#"><FaFacebookF /></a></li>
+                        <li><a href="#"><FaLinkedinIn /></a></li>
+                        <li><a href="#"><FaTwitter /></a></li>
+                        <li><a href="#"><FaInstagramSquare /></a></li>
                     </ul>
                 </div>
              </div>
         </div>
         <div class="footer__copyright">
-            <small>Copyright &copy, MultiLing</small>
+            <small>Copyright &copy, Pronera</small>
          </div>
       </footer>
         </div>
