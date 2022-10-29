@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -15,19 +16,19 @@ export default function Navbar() {
           <div className='hidden lg:block '>
             <ul className='flex gap-16 font-semibold'>
               <li className='text-black text-base hover:text-blued'>
-                <a href='!#'>Home</a>
+              <Link to= '/'> <a href=''>Home</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
-                <a href='!#'>About Us</a>
+               <Link to= '/about'> <a href=''>About Us</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
-                <a href='!#'>Services</a>
+              <Link to= '/contact'> <a href=''>Services</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
-                <a href='!#'>Team</a>
+              <Link to= '/contact'> <a href=''>Team</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
-                <a href='!#'>Contact Us</a>
+              <Link to= '/contact'> <a href=''>Contact Us</a></Link>
               </li>
             </ul>
           </div>
