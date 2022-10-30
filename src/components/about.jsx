@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-       <div className='container'>
+       <div className=''>
            <div className="info">
             <div className="info-left">
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sequi.</h4>
@@ -19,7 +19,7 @@ const About = () => {
                <button className='rounded-3xl bg-blued h-16 w-48 hover:shadow-xl hover:ring-4 hover:ring-blue-400 shadow-blue-400 text-xl text-white mt-8'><a href="#">Consult with Us</a></button>
             </div>
             <div className="lg:my-auto my-0 w-full mt-8 info-right">
-                <img src="../images/hero.png" alt="" />
+                <img src="../images/about.png" alt="" />
             </div>
            </div>
            <div className="offer">
