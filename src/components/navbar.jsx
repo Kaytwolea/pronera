@@ -22,10 +22,10 @@ export default function Navbar() {
                <Link to= '/about'> <a href=''>About Us</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
-              <Link to= '/contact'> <a href=''>Services</a></Link>
+              <Link to= '/service'> <a href=''>Services</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
-              <Link to= '/contact'> <a href=''>Team</a></Link>
+              <Link to= '/team'> <a href=''>Team</a></Link>
               </li>
               <li className='text-black text-base hover:text-blued'>
               <Link to= '/contact'> <a href=''>Contact Us</a></Link>
